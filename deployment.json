@@ -1,0 +1,25 @@
+{
+  "network": "devnet",
+  "packageId": "0xbe60f3234942d96c72fce0b9e6a0f2e744440a020908b6de7fd34b2c945eb5a5",
+  "deployedAt": "2025-08-03T15:03:42+01:00",
+  "transactionDigest": "E5d3zBhVF889w9ARGcANmUFJfmqoeyitNt2XRhwGbF8M",
+  "modules": {
+    "simple_nft": {
+      "structs": {
+        "SimpleNFT": {
+          "abilities": ["key", "store"],
+          "fields": ["id", "name", "description", "image_url", "creator"]
+        },
+        "NFTMinted": {
+          "abilities": ["copy", "drop"],
+          "fields": ["nft_id", "name", "creator", "recipient"]
+        }
+      },
+      "functions": {
+        "mint_nft": "public",
+        "get_nft_info": "public", 
+        "update_description": "public"
+      }
+    }
+  }
+}
