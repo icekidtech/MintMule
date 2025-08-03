@@ -34,7 +34,7 @@ simple_nft/
 
 ### 1. Clone and Setup
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/icekidtech/simple_nft.git
 cd simple_nft
 ```
 
