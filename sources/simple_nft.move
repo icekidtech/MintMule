@@ -7,9 +7,7 @@ module simple_nft::simple_nft;
 // https://docs.sui.io/concepts/sui-move-concepts/conventions
 
 module simple_nft::simple_nft {
-    use sui::object::{Self, UID};
-    use sui::transfer;
-    use sui::tx_context::{Self, TxContext};
+    use sui::tx_context;
     use std::string::{Self, String};
     use sui::event;
 
